@@ -248,7 +248,7 @@
   color: white;
 }
 
-.table__theme_dark {
+.table_theme_dark {
   margin: 0 auto 90px auto;
 }
 
@@ -311,9 +311,6 @@
 
 .footer__column_content_social {
 }
-
-
-
 
 .logo_place_footer {
   width: 183px;
