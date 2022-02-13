@@ -18,13 +18,29 @@
     <h1 class="header__title">Научиться учиться</h1>
     <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
       жизни?
-      <a class="header__link" target="_blank" href="#">Узнать &#10230;</a></p>
+      <a class="header__link" target="_blank" href="#">Узнать &rarr;</a></p>
     <img class="header__main-illustration" title="Яндекс Практикум" alt="Яндекс Практикум"
          src="./images/header-image.png">
-    <div class="header__square-pic rotate"></div>
+    <div class="header__square-pic rotation"></div>
   </header>
 
   <main class="content">
+
+    <section class="description">
+      <article class="two-columns">
+        <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
+        <div class="two-columns__main-text">
+          <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал.
+            Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест,
+            но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
+          <p class="two-columns__paragraph"><span
+            class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат.
+            Что с этим делать?</p>
+          <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать
+            его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
+        </div>
+      </article>
+    </section>
 
     <section class="techniques">
       <h2 class="section-title">Техники обучения</h2>
@@ -66,39 +82,27 @@
       </ul>
     </section>
 
-    <section class="description">
-      <div class="two-columns">
-        <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
-        <div class="two-columns__main-text">
-          <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал.
-            Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест,
-            но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
-          <p class="two-columns__paragraph"><span
-            class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат.
-            Что с этим делать?</p>
-          <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать
-            его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
-        </div>
-      </div>
-    </section>
-
     <section class="video">
       <h2 class="section-title">Видео нa TED</h2>
       <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-      <div class="video__iframes">
-        <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-      </div>
+      <ul class="video__iframes">
+        <li class="video__iframe">
+          <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+        </li>
+        <li class="video__iframe">
+          <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+        </li>
+      </ul>
     </section>
 
     <section class="oakley">
-      <div class="two-columns">
+      <article class="two-columns">
         <h2 class="two-columns__brief">История Барбары Оакли.</h2>
         <div class="two-columns__main-text">
           <p class="two-columns__paragraph">С детства Барбаре не давалась математика. Она считала себя законченным
@@ -108,14 +112,14 @@
             трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.
           </p>
         </div>
-      </div>
+      </article>
     </section>
 
     <section class="feynman">
       <h2 class="feynman__title">Метод Фейнмана</h2>
       <p class="feynman__subtitle">Выучить и не забыть.</p>
-      <a class="feynman__link" target="_blank" href="#">Подробнее &#10230;</a>
-      <img class="feynman__image" title="Метод Фейнмана" alt="Метод Фейнмана" src="./images/feynman.png">
+      <a class="feynman__link" target="_blank" href="#">Подробнее &rarr;</a>
+      <div class="feynman__image"></div>
     </section>
 
     <section class="digits">
@@ -168,11 +172,11 @@
           «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить
           навыки и знания, которые приносят успех в школе, карьере и жизни.
         </blockquote>
-        <p class="khan__quote-author">Джордж Лукас</p>
+        <h3 class="khan__quote-author">Джордж Лукас</h3>
         <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
         <div class="khan__book-container">
           <img class="khan__book-pic" src="./images/khan-book.jpg" title="Салман Хан" alt="Салман Хан">
-          <a class="khan__buy-link" target="_blank" href="#">Купить книгу &#10230;</a>
+          <a class="khan__buy-link" target="_blank" href="#">Купить книгу &rarr;</a>
         </div>
       </div>
     </section>
@@ -224,7 +228,7 @@
           <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
         </li>
       </ul>
-      <div class="kaufman__triangle rotate"></div>
+      <div class="kaufman__triangle rotation"></div>
     </section>
 
     <section class="resources">
@@ -232,16 +236,24 @@
       <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
       <ul class="resources__logo-zone">
         <li class="resources__logo">
-          <img title="Арзамаз" alt="Арзамаз" src="./images/resources-arzamas.svg">
+          <a href="https://arzamas.academy/" target="_blank">
+            <img title="Арзамаз" alt="Арзамаз" src="./images/resources-arzamas.svg">
+          </a>
         </li>
         <li class="resources__logo">
-          <img title="Н1" alt="Н1" src="./images/resources-n1.svg">
+          <a href="https://nplus1.ru/" target="_blank">
+            <img title="Н1" alt="Н1" src="./images/resources-n1.svg">
+          </a>
         </li>
         <li class="resources__logo">
-          <img title="Стрелка" alt="Стрелка" src="./images/resources-strelka.svg">
+          <a href="https://www.strelka.com/ru" target="_blank">
+            <img title="Стрелка" alt="Стрелка" src="./images/resources-strelka.svg">
+          </a>
         </li>
         <li class="resources__logo">
-          <img title="Полка" alt="Полка" src="./images/resources-polka.svg">
+          <a href="https://polka.academy/" target="_blank">
+            <img title="Полка" alt="Полка" src="./images/resources-polka.svg">
+          </a>
         </li>
       </ul>
     </section>

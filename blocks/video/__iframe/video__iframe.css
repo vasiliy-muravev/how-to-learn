@@ -1,3 +1,8 @@
+.video__iframe {
+  list-style-type: none;
+  display: inline;
+}
+
 .video__iframe:nth-of-type(1) {
   margin-right: 20px;
 }
