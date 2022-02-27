@@ -5,6 +5,7 @@ Educational project from [https://practicum.yandex.ru](https://practicum.yandex.
 ## What is this?
 
 One page website on pure modern Html and CSS
+See demo [https://vasiliy-muravev.github.io/how-to-learn/](https://vasiliy-muravev.github.io/how-to-learn/)
 
 ## Use
 
