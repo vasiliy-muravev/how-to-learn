@@ -1,4 +1,4 @@
-# Layout learning (landing page)
+# Project: How to learn (landing page)
 
 See demo [https://vasiliy-muravev.github.io/how-to-learn/](https://vasiliy-muravev.github.io/how-to-learn/)
 
